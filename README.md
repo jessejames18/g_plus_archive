@@ -16,7 +16,7 @@ sudo pip install pycurl
 ```
 Note that depending on your machine, your requirement packages might be different.
 
-
+#
 Step2: add your user ID to the script
 - move to the script direcoty
 
@@ -28,18 +28,16 @@ cd scripts/
 vim gplus-api.py 
 ```
 - find the following line
-```
-user_id = "YOUR_USER_ID"
-```
+`user_id = "YOUR_USER_ID"`
 - replace "YOUR_USER_ID" with your user ID.
 
 Note that you can find your user ID from your profile link.
-
+#
 Step3: create your API key
 Follow this instruction to generate your API key:
   https://developers.google.com/+/web/api/rest/oauth#apikey
 
-
+#
 Step4: add your secret key (generated in step 3) to the file `gplus-api.py`
 - move to the script direcoty
 
