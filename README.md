@@ -2,14 +2,14 @@
 Google plus offline search
 
 ## Description
-This script queries Google Plus API to download activies in your account and let you search through your posts.
+This script queries Google Plus API to download activities in your account and let you search through your posts.
 
 ## Requirements
 - Python 2.7.13
 - pycurl
 
 ## Installation Guide
-Step1: Install the requirement
+Step1: Install the requirements
 
 ```
 sudo pip install pycurl
@@ -31,7 +31,7 @@ vim gplus-api.py
 `user_id = "YOUR_USER_ID"`
 - replace "YOUR_USER_ID" with your user ID.
 
-Note that you can find your user ID from your profile link.
+Hint: you can find your user ID from your profile link.
 #
 Step3: create your API key.<br/>
 Follow this instruction to generate your API key:
@@ -59,7 +59,7 @@ There are two scripts.
 ```
 python gplus-api.py
 ```
-- For searching through your posts, you can use `google-plus-search.py`. Keep in mind that the searching algorithm is boolean search. So, nothing fancy.
+- For searching through your posts, you can use `google-plus-search.py`. Keep in mind that the searching algorithm is boolean search. Means, nothing fancy.
 ```
 python google-plus-search.py Trump
 ```
