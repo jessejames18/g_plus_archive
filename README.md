@@ -27,13 +27,13 @@ cd scripts/
 ```
 vim gplus-api.py 
 ```
-- find the following line
+- find the following line__
 `user_id = "YOUR_USER_ID"`
 - replace "YOUR_USER_ID" with your user ID.
 
 Note that you can find your user ID from your profile link.
 #
-Step3: create your API key.
+Step3: create your API key.__
 Follow this instruction to generate your API key:
   https://developers.google.com/+/web/api/rest/oauth#apikey
 
@@ -48,7 +48,7 @@ cd scripts/
 ```
 vim gplus-api.py 
 ```
-- find the following line
+- find the following line__
 `secret_key = "YOUR_SECRET_KEY"`
 - replace "YOUR_SECRET_KEY" with your secret key
 
