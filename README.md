@@ -49,9 +49,7 @@ cd scripts/
 vim gplus-api.py 
 ```
 - find the following line
-```
-secret_key = "YOUR_SECRET_KEY"
-```
+`secret_key = "YOUR_SECRET_KEY"`
 - replace "YOUR_SECRET_KEY" with your secret key
 
 
