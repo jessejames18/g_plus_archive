@@ -33,7 +33,7 @@ vim gplus-api.py
 
 Note that you can find your user ID from your profile link.
 #
-Step3: create your API key
+Step3: create your API key.
 Follow this instruction to generate your API key:
   https://developers.google.com/+/web/api/rest/oauth#apikey
 
